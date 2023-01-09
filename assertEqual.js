@@ -8,7 +8,7 @@ const assertEqual = function(actual, expected) {
 
 assertEqual("Lighthouse Labs", "Bootcamp");
 assertEqual(1, 1);
-assertEqual('poop', 'poopy');
+assertEqual('key', 'keys');
 assertEqual('finger', 'finger');
 assertEqual('11', 11);
 assertEqual(11, 11);
