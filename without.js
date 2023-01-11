@@ -11,7 +11,6 @@ const eqArrays = function(arr1, arr2) {
 };
 
 
-
 const assertArraysEqual = function(actual, expected) {
   const equalArray = eqArrays(actual, expected);
   if (equalArray) {
@@ -33,6 +32,3 @@ const without = function(source, itemsToRemove) {
   }
   return newArr;
 };
-
-
-
