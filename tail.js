@@ -6,6 +6,8 @@ const assertEqual = function(actual, expected) {
   }
 };
 
+// -------------------------------------------------------------------------------------------
+
 const tail = function(arr) {
   let arrTail = arr;
   arrTail = arrTail.slice(1);

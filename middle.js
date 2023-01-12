@@ -10,7 +10,7 @@ const eqArrays = function(arr1, arr2) {
   return true;
 };
 
-
+// -------------------------------------------------------------------------------------------
 
 const assertArraysEqual = function(actual, expected) {
   const equalArray = eqArrays(actual, expected);
@@ -21,6 +21,7 @@ const assertArraysEqual = function(actual, expected) {
   }
 };
 
+// -------------------------------------------------------------------------------------------
 
 const middle = function(arr) {
   if (arr.length <= 2) {

@@ -10,6 +10,7 @@
 //   return console.log(`✅✅✅ Assertion Passed: ${arr1} === ${arr2} ✅✅✅`);
 // };
 
+// -------------------------------------------------------------------------------------------
 
 const eqArrays = function(arr1, arr2) {
   if (arr1.length !== arr2.length) {
@@ -23,7 +24,7 @@ const eqArrays = function(arr1, arr2) {
   return true;
 };
 
-
+// -------------------------------------------------------------------------------------------
 
 const assertArraysEqual = function(actual, expected) {
   const equalArray = eqArrays(actual, expected);
@@ -34,7 +35,7 @@ const assertArraysEqual = function(actual, expected) {
   }
 };
 
-
+// -------------------------------------------------------------------------------------------
 
 assertArraysEqual([1, 2, 3], [1, 2, 3]);
 assertArraysEqual([1, 2, 3], [1, 2, 3]);

@@ -9,21 +9,25 @@ const assertEqual = function(actual, expected) {
 // 1. Function takes in a string, add for loop to iterate through the string.
 // 2. Loop needs to populate an empty array with each letter that occurs, then increment the value for however many additional times it appears.
 
+// -------------------------------------------------------------------------------------------
 
 const countLetters = function(string) {
   let letterObj = {};
-  let inputString = string.split(' ').join('').toLowerCase()
-  for (const letter of inputString) {
-    if (letterObj[letter]) {
-      letterObj[letter] += 1;
-    } else {
-      letterObj[letter] = 1;
+  let inputString = string.split(' ').join('').toLowerCase();
+  if (inputString){
+    for (const letter of inputString) {
+      if (letterObj[letter]) {
+        letterObj[letter] += 1;
+      } else {
+        letterObj[letter] = 1;
+      }
     }
-  }
+  }  
   return letterObj;
 };
-
-
+ 
+// -------------------------------------------------------------------------------------------
+// TEST CASES
 
 const result1 = countLetters('lighthouse in the house');
 const result2 = {
