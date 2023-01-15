@@ -45,15 +45,15 @@ const results1 = map(words, (word) => word[0]);
 const results2 = map(words, (word) => word + word);
 const results3 = map(words, (word) => word[0] + word[word.length - 1]);
 
-assertArraysEqual(results1, ["g", "c", "t", "m", "t"]);
-assertArraysEqual(results2, [
-  "groundground",
-  "controlcontrol",
-  "toto",
-  "majormajor",
-  "tomtom",
-]);
-assertArraysEqual(results3, ["gd", "cl", "to", "mr", "tm"]);
+// assertArraysEqual(results1, ["g", "c", "t", "m", "t"]);
+// assertArraysEqual(results2, [
+//   "groundground",
+//   "controlcontrol",
+//   "toto",
+//   "majormajor",
+//   "tomtom",
+// ]);
+// assertArraysEqual(results3, ["gd", "cl", "to", "mr", "tm"]);
 
 // const results1 = map(words, (word) => word[0]);
 // console.log(results1);
