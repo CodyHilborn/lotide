@@ -1,10 +1,12 @@
-const assertEqual = function(actual, expected) {
-  if (actual === expected) {
-    console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected} ✅✅✅`);
-  } else {
-    console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected} 🛑🛑🛑`);
-  }
-};
+// const assertEqual = function(actual, expected) {
+//   if (actual === expected) {
+//     console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected} ✅✅✅`);
+//   } else {
+//     console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected} 🛑🛑🛑`);
+//   }
+// };
+
+const assertEqual = require('./assertEqual');
 
 // 1. Function takes in a string, add for loop to iterate through the string.
 // 2. Loop needs to populate an empty array with each letter that occurs, then increment the value for however many additional times it appears.
@@ -16,11 +18,10 @@ const countLetters = function(string) {
   let inputString = string.split(' ').join('').toLowerCase();
   if (inputString) {
     for (const letter of inputString) {
-      if (letterObj[letter]) {
-        letterObj[letter] += 1;
-      } else {
-        letterObj[letter] = 1;
+      if (!letterObj[letter]) {
+        letterObj[letter] = 0;
       }
+      letterObj[letter] ++;
     }
   }
   return letterObj;
@@ -44,6 +45,9 @@ const result2 = {
 };
 
 
-for (key in result1) {
-  console.log(assertEqual(result1[key], result2[key]));
-};
+// for (key in result1) {
+//   console.log(assertEqual(result1[key], result2[key]));
+// };
+
+
+console.log(result1)
