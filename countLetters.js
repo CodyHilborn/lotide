@@ -14,7 +14,7 @@ const assertEqual = function(actual, expected) {
 const countLetters = function(string) {
   let letterObj = {};
   let inputString = string.split(' ').join('').toLowerCase();
-  if (inputString){
+  if (inputString) {
     for (const letter of inputString) {
       if (letterObj[letter]) {
         letterObj[letter] += 1;
@@ -22,10 +22,10 @@ const countLetters = function(string) {
         letterObj[letter] = 1;
       }
     }
-  }  
+  }
   return letterObj;
 };
- 
+
 // -------------------------------------------------------------------------------------------
 // TEST CASES
 
@@ -41,9 +41,9 @@ const result2 = {
   s: 2,
   e: 3,
   n: 1,
-}
+};
 
 
 for (key in result1) {
-  console.log(assertEqual(result1[key], result2[key]))
+  console.log(assertEqual(result1[key], result2[key]));
 };
