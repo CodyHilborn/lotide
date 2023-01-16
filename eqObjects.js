@@ -46,14 +46,14 @@ const eqObjects = function(obj1, obj2) {
 };
 
 
-const multiColorShirtObject = { colors: ["red", "blue"], size: "large" };
-const anotherMultiColorShirtObject = { size: "medium", colors: ["red", "blue"] };
-console.log(eqObjects(multiColorShirtObject, anotherMultiColorShirtObject)); // => true
+// const multiColorShirtObject = { colors: ["red", "blue"], size: "large" };
+// const anotherMultiColorShirtObject = { size: "medium", colors: ["red", "blue"] };
+// console.log(eqObjects(multiColorShirtObject, anotherMultiColorShirtObject)); // => true
 
-const longSleeveMultiColorShirtObject = { size: "medium", colors: ["red", "blue"], sleeveLength: "long" };
-// => false
+// const longSleeveMultiColorShirtObject = { size: "medium", colors: ["red", "blue"], sleeveLength: "long" };
+// // => false
 
-assertEqual(eqObjects(multiColorShirtObject , anotherMultiColorShirtObject), true);
+// assertEqual(eqObjects(multiColorShirtObject , anotherMultiColorShirtObject), true);
 
 
 module.exports = eqObjects;

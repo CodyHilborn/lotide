@@ -48,8 +48,8 @@ const letterPositions = function(sentence) {
   return results;
 };
 
-console.log(letterPositions(''));
+// console.log(letterPositions(''));
 
-assertArraysEqual(letterPositions('helper').e, [1, 4]);
+// assertArraysEqual(letterPositions('helper').e, [1, 4]);
 
 module.exports = letterPositions;
