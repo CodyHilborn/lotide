@@ -21,7 +21,7 @@ const countLetters = function(string) {
       if (!letterObj[letter]) {
         letterObj[letter] = 0;
       }
-      letterObj[letter] ++;
+      letterObj[letter]++;
     }
   }
   return letterObj;
@@ -50,4 +50,4 @@ const result2 = {
 // };
 
 
-console.log(result1)
+module.exports = countLetters;
