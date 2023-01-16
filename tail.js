@@ -22,16 +22,7 @@ const tail = function(arr) {
 // console.log(words, tail(words));
 
 
-
-
-const result = [2, 3, 4, 5];
-
-// console.log(result);
-// console.log(tail(result));
-
-console.log(assertEqual(tail(result)[0], 3));
-
-
+module.exports = tail;
 
 
 
