@@ -3,16 +3,22 @@
 
 // -------------------------------------------------------------------------------------------
 
+// const without = function(source, itemsToRemove) {
+//   const newArr = [];
+//   for (let i = 0; i < source.length; i++) {
+//     for (let j = 0; j < itemsToRemove.length; j++) {
+//       if (source[i] !== itemsToRemove[j]) {
+//         newArr.push(source[i]);
+//       }
+//     }
+//   }
+//   return newArr;
+// };
+
 const without = function(source, itemsToRemove) {
-  const newArr = source;
-  for (let i = 0; i < newArr.length; i++) {
-    for (let j = 0; j < itemsToRemove.length; j++) {
-      if (newArr[i] === itemsToRemove[j]) {
-        newArr.splice(i, 1);
-      }
-    }
-  }
-  return newArr;
+  let output;
+  output = source.filter(val => !itemsToRemove.includes(val));
+  return output;
 };
 
 module.exports = without;
@@ -21,6 +27,6 @@ module.exports = without;
 
 
 
-// console.log(without([1, 2, 3, 2, 3, 1, 2, 3, 1, 3], [1, 2, 3]));
+// console.log(without([1, 2, 3, 2, 3, 1, 2, 3, 1, 3], [1, 3]));
 
 
