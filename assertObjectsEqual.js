@@ -1,3 +1,5 @@
+// Logs a 'pass/fail' message to the console based on a comparison between an expected object and an actual object.
+
 const eqObjects = require('./eqObjects');
 
 // -------------------------------------------------------------------------------------------

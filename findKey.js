@@ -1,3 +1,6 @@
+// Uses a callback function to find the first key that returns a truthy value.
+
+
 const findKey = function(object, callback) {
   for (const key in object) {
     if (callback(object[key])) {

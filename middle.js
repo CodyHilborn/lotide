@@ -1,3 +1,5 @@
+// Returns the middle element(s) of an array. If the length of the array is an odd number, it returns 1 middle element. If it's an even number, it returns the two middle elements.
+
 // const eqArrays = require('./eqArrays');
 // const assertArraysEqual = require('./assertArraysEqual');
 

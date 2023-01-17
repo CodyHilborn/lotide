@@ -1,3 +1,5 @@
+// Compares between two objects to see if they are an exact equal match.
+
 const eqArrays = require('./eqArrays');
 
 // -------------------------------------------------------------------------------------------

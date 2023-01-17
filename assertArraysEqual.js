@@ -1,3 +1,6 @@
+// Logs a 'pass/fail' message to the console based on a comparison between an expected array and an actual array.
+
+
 const eqArrays = require('./eqArrays');
 
 // -------------------------------------------------------------------------------------------

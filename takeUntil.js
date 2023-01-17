@@ -1,3 +1,6 @@
+// Loops through an array until the first element specified in the callback function is found, then returns every element from the 0th index until the specified element.
+
+
 // const eqArrays = require('./eqArrays');
 // const assertArraysEqual = require('./assertArraysEqual');
 

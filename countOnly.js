@@ -1,3 +1,5 @@
+// Counts only the specified instances of each element in an array.
+
 // const assertEqual = require('./assertEqual');
 
 // -------------------------------------------------------------------------------------------

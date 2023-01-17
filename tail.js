@@ -1,3 +1,5 @@
+// Returns everything except the first element of an array.
+
 // const assertEqual = require('./assertEqual');
 
 // -------------------------------------------------------------------------------------------

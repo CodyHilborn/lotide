@@ -1,5 +1,6 @@
-// const assertEqual = require('./assertEqual');
+// Compares between two arrays to see if they are an exact equal match.
 
+// const assertEqual = require('./assertEqual');
 
 // -------------------------------------------------------------------------------------------
 

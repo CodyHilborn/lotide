@@ -1,8 +1,8 @@
+// Finds the key of an object by matching with a value passed into the function.
+
 // const assertEqual = require('./assertEqual');
 
 // -------------------------------------------------------------------------------------------
-
-
 
 const findKeyByValue = function(obj, val) {
   for (const key in obj) {

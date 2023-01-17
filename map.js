@@ -1,3 +1,6 @@
+// Takes an array and a callback function as arguments, returns a new array with values altered based on the conditions specified in the callback function.
+
+
 // const eqArrays = require('./eqArrays');
 // const assertArraysEqual = require('./assertArraysEqual');
 

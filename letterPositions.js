@@ -1,10 +1,12 @@
+// Returns an object that contains the indicies of each letter from a sentence.
+
 // const eqArrays = require('./eqArrays');
 // const assertArraysEqual = require('./assertArraysEqual');
 
 // -------------------------------------------------------------------------------------------
 
 const letterPositions = function(sentence) {
-  const results = {};
+  let results = {};
   let inputString = sentence.toLowerCase();
   if (inputString) {
     for (let i = 0; i < inputString.length; i++) {
